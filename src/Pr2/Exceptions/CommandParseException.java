@@ -1,0 +1,7 @@
+package Pr2.Exceptions;
+
+public class CommandParseException extends Exception{
+	public CommandParseException(String s) {
+		super(s);
+	}
+}
